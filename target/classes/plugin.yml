@@ -1,0 +1,9 @@
+main: fr.worldchanger.worldcube.Main
+name: WorldChanger
+description: WorldChanger WorldCube
+author: Mihawka
+version: 1.0
+
+commands:
+  wc:
+    description: World Changer command
