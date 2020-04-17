@@ -2,7 +2,7 @@
   <artifact type="jar" name="WorldChanger">
     <output-path>$USER_HOME$/Desktop/Test/Minecraft/Server/plugins</output-path>
     <root id="archive" name="WorldChanger.jar">
-      <element id="module-output" name="World_Changer" />
+      <element id="module-output" name="World-Changer" />
     </root>
   </artifact>
 </component>
