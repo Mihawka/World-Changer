@@ -5,8 +5,10 @@ import org.bukkit.Chunk;
 import org.bukkit.Material;
 import org.bukkit.World;
 import org.bukkit.block.Block;
+import org.bukkit.scheduler.BukkitTask;
 
 public class WorldChangeTask implements Runnable {
+
     @Override
     public void run() {
         System.out.println("WORLD CHANGER APPLIED");
@@ -39,7 +41,7 @@ public class WorldChangeTask implements Runnable {
         }
 
         if (--Main.Radius < 0) {
-            Main.Task.cancel();
+            Main.StopTask();
             System.out.println("WORLD CHANGER END");
         }
     }
